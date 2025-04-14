@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AUTOPILOT - Tableau de Bord</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+    }
+    .sidebar {
+      width: 220px;
+      background-color: #002244;
+      color: white;
+      height: 100vh;
+      padding: 20px;
+    }
+    .sidebar .logo {
+      margin-bottom: 40px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+    }
+    .sidebar ul li {
+      margin: 15px 0;
+    }
+    .sidebar ul li a {
+      color: white;
+      text-decoration: none;
+    }
+    .content {
+      flex-grow: 1;
+      padding: 40px;
+      background-color: #f4f4f4;
+    }
+  </style>
+</head>
+<body>
+  <nav class="sidebar">
+    <h1 class="logo">AUTOPILOT</h1>
+    <ul>
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="#">Véhicules</a></li>
+      <li><a href="#">Conducteurs</a></li>
+      <li><a href="#">Carburant</a></li>
+      <li><a href="#">Alertes</a></li>
+      <li><a href="#">Statistiques</a></li>
+    </ul>
+  </nav>
+  <main class="content">
+    <h2>Bienvenue sur AUTOPILOT</h2>
+    <p>Votre tableau de bord pour la gestion VTC intelligente.</p>
+  </main>
+</body>
+</html>
